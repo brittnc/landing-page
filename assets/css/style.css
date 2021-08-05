@@ -21,13 +21,13 @@
   main {
     padding: 60px 0;
   }
-  
+  /* links to github, portfolio, contact*/
   li {
     display: inline;
     padding: 0px 20px;
     text-decoration: none;
   }
-  
+  /* links to github, portfolio, contact*/
   a {
     text-decoration: none;
     color: #FDF8F5;
@@ -38,14 +38,14 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #266150;
+    background-color: #778ffc;
   }
-  
+  /*line under header*/
   header {
     position: fixed;
-    border-bottom: 10px solid #DDAF94;
+    border-bottom: 6px solid #DDAF94;
   }
-  
+  /*line under footer*/
   footer {
     position: absolute;
     margin-top: 0;
@@ -62,11 +62,11 @@
     display: block;
     margin: 20px auto;
   }
-  
+  /*whole contact me area*/
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
+    border-top: 3px solid #cc94dd;
     background-color:  #E8CEBF;
   }
   
@@ -75,7 +75,7 @@
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #DDAF94;
+    border: 5px solid #cc94dd;
     border-radius: 20px;
   }
   
@@ -83,7 +83,7 @@
     display: inline-block;
     width: 100px;
   }
-    
+   /*contact info lines*/ 
   input, 
   textarea {
     box-sizing: border-box;
@@ -93,11 +93,11 @@
   
   textarea {
     vertical-align: top;
-    height: 60px;
+    height: 30px;
   }
-    
+   /*send button*/ 
   button {
-    height: 40px;
+    height: 30px;
     width: 120px;
     background-color: #4F4846;
     color: #FDF8F5;
